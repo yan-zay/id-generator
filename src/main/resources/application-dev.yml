@@ -1,0 +1,13 @@
+# 配置端口
+server:
+  port: 51106
+
+#swagger:
+#  enable: true
+
+logging:
+  level:
+    com.tj.mapper: DEBUG  # 针对 Mapper 接口包开启 DEBUG 日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印 SQL 到控制台

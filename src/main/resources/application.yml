@@ -1,0 +1,35 @@
+# 配置端口
+server:
+  port: 51105
+
+spring:
+  profiles:
+    active: dev
+#    active: sit
+#    active: uat
+#    active: pro
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/id_generator?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: admin1104
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true # 虽然默认为 true ，但是还是显示去指定下。
+
+#  redis:
+#    host: localhost
+#    port: 6379
+#    password: 123456
+#    database: 1
+#    timeout: 5000
+#
+#  redisson:
+#    lock:
+#      wait-time: 30
+#      lease-time: 120
+
+id:
+  length: 9
