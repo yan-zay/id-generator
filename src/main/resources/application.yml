@@ -12,8 +12,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/id_generator?useUnicode=true&characterEncoding=UTF-8
-    username: *
-    password: *
+    username: 111
+    password: 111
 
 mybatis-plus:
   configuration:
