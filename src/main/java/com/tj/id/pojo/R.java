@@ -1,4 +1,4 @@
-package com.tj.pojo;
+package com.tj.id.pojo;
 
 import lombok.*;
 import lombok.experimental.Accessors;

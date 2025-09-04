@@ -1,8 +1,8 @@
-package com.tj.controller;
+package com.tj.id.controller;
 
-import com.tj.enums.id.BizTypeEnum;
-import com.tj.pojo.R;
-import com.tj.service.id.IdGeneratorService;
+import com.tj.id.enums.BizTypeEnum;
+import com.tj.id.pojo.R;
+import com.tj.id.service.IdGeneratorService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/id")
 @AllArgsConstructor
 @Slf4j
-public class TestIdController {
+public class IdController {
 
     private final IdGeneratorService idGeneratorService;
 

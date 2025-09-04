@@ -1,9 +1,7 @@
-package com.tj.entity.id;
+package com.tj.id.entity.base;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.tj.entity.base.Time;
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 

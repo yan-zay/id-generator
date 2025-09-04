@@ -1,9 +1,9 @@
-package com.tj.service.id.impl;
+package com.tj.id.service.impl;
 
-import com.tj.dto.SegmentIdDTO;
-import com.tj.enums.id.BizTypeEnum;
-import com.tj.properties.IdProperties;
-import com.tj.service.id.IdGeneratorService;
+import com.tj.id.dto.SegmentIdDTO;
+import com.tj.id.enums.BizTypeEnum;
+import com.tj.id.service.IdGeneratorService;
+import com.tj.id.properties.IdProperties;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

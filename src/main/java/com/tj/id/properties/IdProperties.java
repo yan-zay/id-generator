@@ -1,4 +1,4 @@
-package com.tj.properties;
+package com.tj.id.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

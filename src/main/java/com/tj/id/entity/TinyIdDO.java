@@ -1,9 +1,10 @@
-package com.tj.entity.id;
+package com.tj.id.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.tj.enums.id.BizTypeEnum;
+import com.tj.id.entity.base.PhysicsTimeBaseDO;
+import com.tj.id.enums.BizTypeEnum;
 import lombok.*;
 
 /**

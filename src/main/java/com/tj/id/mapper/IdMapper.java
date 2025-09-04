@@ -1,8 +1,7 @@
-package com.tj.mapper.id;
+package com.tj.id.mapper;
 
-import com.tj.entity.id.TinyIdDO;
-import com.tj.enums.id.BizTypeEnum;
-import com.tj.mapper.BaseMapperX;
+import com.tj.id.entity.TinyIdDO;
+import com.tj.id.enums.BizTypeEnum;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Update;

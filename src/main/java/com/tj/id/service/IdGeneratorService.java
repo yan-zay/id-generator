@@ -1,6 +1,6 @@
-package com.tj.service.id;
+package com.tj.id.service;
 
-import com.tj.enums.id.BizTypeEnum;
+import com.tj.id.enums.BizTypeEnum;
 
 /**
  * @Author: zay

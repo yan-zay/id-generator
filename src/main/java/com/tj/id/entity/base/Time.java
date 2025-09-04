@@ -1,4 +1,4 @@
-package com.tj.entity.base;
+package com.tj.id.entity.base;
 
 import java.io.Serializable;
 import java.util.Date;

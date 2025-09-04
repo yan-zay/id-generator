@@ -1,4 +1,4 @@
-package com.tj.enums.id;
+package com.tj.id.enums;
 
 import com.baomidou.mybatisplus.annotation.EnumValue;
 import lombok.AllArgsConstructor;

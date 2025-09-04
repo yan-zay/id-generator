@@ -1,4 +1,4 @@
-package com.tj.dto;
+package com.tj.id.dto;
 
 import lombok.Data;
 
