@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan(
         basePackages = {
-                "com.tj.**",
+                "com.tj.id.**",
         }
 )
 public class IdSpringBootApplication {
