@@ -15,9 +15,9 @@ import org.springframework.context.annotation.ComponentScan;
                 "com.tj.id.**",
         }
 )
-public class IdSpringBootApplication {
+public class IdApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(IdSpringBootApplication.class, args);
+        SpringApplication.run(IdApplication.class, args);
     }
 }
