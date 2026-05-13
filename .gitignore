@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Sensitive config ###
+src/main/resources/application-dev.yml

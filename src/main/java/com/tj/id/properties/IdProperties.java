@@ -15,5 +15,5 @@ import org.springframework.validation.annotation.Validated;
 @ConfigurationProperties(prefix = "id")
 public class IdProperties {
 
-    private Integer length;
+    private Integer length = 9;
 }

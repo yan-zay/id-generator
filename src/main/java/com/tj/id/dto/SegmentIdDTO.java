@@ -11,18 +11,10 @@ import java.util.concurrent.atomic.AtomicLong;
 @Data
 public class SegmentIdDTO {
 
-    private long maxId;
+    private volatile long maxId;
     private AtomicLong currentId;
-    /**
-     * increment by
-     */
     private int delta;
-    /**
-     * mod num
-     */
     private int remainder;
-
-    private volatile boolean isInit;
 
     public boolean useful() {
         return currentId.get() <= maxId;
